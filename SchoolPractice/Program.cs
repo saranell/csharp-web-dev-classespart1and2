@@ -10,6 +10,9 @@ namespace SchoolPractice
             // Instantiate the Student class using yourself as the student. For the NumberOfCredits give yourself 1 and a GPA of 4.0.
             Student sara = new Student("Sara", 1, 1, 4.0);
             Console.WriteLine(sara.Name + " is a student!");
+
+            Teacher msFrizzle = new Teacher("Ms.", "Frizzle", "life", 3);
+            Console.WriteLine(msFrizzle.FirstName + msFrizzle.LastName + " is our teacher!"); 
         }
     }
 }

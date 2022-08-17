@@ -8,6 +8,14 @@ namespace SchoolPractice
         public string Subject { get; set; }
         public int YearsTeaching { get; set; }
 
+        public Teacher(string firstName, string lastName, string subject, int yearsTeaching)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Subject = subject;
+            YearsTeaching = yearsTeaching;
+        }
+
     }
 }
 
